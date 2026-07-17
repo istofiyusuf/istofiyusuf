@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Isto Fi Yusuf</h1>
+<h1 align="center">Hi 👋, I'm Istofi Yusuf</h1>
 <h3 align="center">A passionate developer from Indonesia 🇮🇩</h3>
 
 <p align="center">
@@ -31,35 +31,35 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=istofiyusuf&show_icons=true&theme=tokyonight" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=istofiyusuf&layout=compact&theme=tokyonight" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api?username=istofiyusuf&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=istofiyusuf&layout=compact&theme=tokyonight&hide_border=true" height="160" />
 </p>
 
 ---
 
 ### 🔥 Streak Stats
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=istofiyusuf&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com?user=istofiyusuf&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 ### 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=istofiyusuf&theme=tokyonight&column=4&margin-w=15&margin-h=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=istofiyusuf&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" />
 </p>
 
 ---
 
 ### 🔗 Connect With Me
 <p align="left">
-  <a href="mailto:emailkamu@gmail.com">
+  <a href="mailto:yusufistofi@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/usernamekamu" target="_blank">
+  <a href="https://linkedin.com/in/istofiyusuf" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://instagram.com/usernamekamu" target="_blank">
+  <a href="https://instagram.com/istofiyusuf" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
