@@ -18,27 +18,27 @@ const portraitFilter = [
 ].join(",");
 
 const profileLines = [
-  { type: "header", value: "wildan@agentlab" },
-  { type: "row", key: "Subject", value: "Wildan Syukri Niam" },
-  { type: "row", key: "Role", value: "AI Researcher & Web3 Builder" },
-  { type: "row", key: "Affiliation", value: "Telkom University" },
-  { type: "row", key: "Base", value: "Bandung, Indonesia" },
+  { type: "header", value: "istofi@devlab" },
+  { type: "row", key: "Subject", value: "Istofi Yusuf" },
+  { type: "row", key: "Role", value: "Fullstack Developer & AI Engineer" },
+  { type: "row", key: "Affiliation", value: "Indonesia" },
+  { type: "row", key: "Base", value: "Jakarta, Indonesia" },
   { type: "row", key: "Status", value: "Researching / Building / Shipping" },
   { type: "blank" },
   { type: "section", value: "RESEARCH.NODE" },
-  { type: "row", key: "Primary", value: "AI Agents" },
-  { type: "row", key: "Direction", value: "Trustworthy Autonomous Systems" },
-  { type: "row", key: "Themes", value: "Multi-agent systems / agentic payments" },
+  { type: "row", key: "Primary", value: "Fullstack & AI" },
+  { type: "row", key: "Direction", value: "Scalable Web & AI Solutions" },
+  { type: "row", key: "Themes", value: "AI Automation / Design Engineering" },
   { type: "blank" },
   { type: "section", value: "BUILD.LOG" },
-  { type: "row", key: "PayGate", value: "Agentic payments" },
-  { type: "row", key: "Fradium", value: "Web3 trust layer" },
-  { type: "row", key: "NovaAI", value: "Intelligent wallet" },
-  { type: "row", key: "Quorum", value: "Agent coordination" },
+  { type: "row", key: "Zenmovie", value: "Streaming Platform" },
+  { type: "row", key: "ShopVerse", value: "E-Commerce" },
+  { type: "row", key: "Zenverse", value: "App Distribution" },
+  { type: "row", key: "AI Flow Studio", value: "AI Automation" },
   { type: "blank" },
   { type: "section", value: "GRID.LINKS" },
-  { type: "row", key: "GitHub", value: "@wildanniam" },
-  { type: "footer", value: "signal.locked > AI / WEB3 / AGENTS" }
+  { type: "row", key: "GitHub", value: "@istofiyusuf" },
+  { type: "footer", value: "signal.locked > FULLSTACK / AI / DESIGN / DEVOPS" }
 ];
 
 const palettes = {
@@ -138,7 +138,7 @@ function getSourcePath() {
   const sourceIndex = process.argv.indexOf("--source");
 
   if (sourceIndex === -1 || !process.argv[sourceIndex + 1]) {
-    throw new Error("Usage: node scripts/generate-agent-hero.mjs --source /absolute/path/to/portrait.jpg");
+    throw new Error("Usage: node scripts/generate-agent-hero.mjs --source /absolute/path/to/portrait.webp");
   }
 
   return resolve(process.argv[sourceIndex + 1]);
@@ -304,7 +304,7 @@ function createHeroSvg(mode, size, portrait) {
   const cursorY = layout.system.y + (profileLines.length - 1) * layout.system.lineHeight - 15;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${layout.width}" height="${layout.height}" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-labelledby="title description">
-<title id="title">Wildan Syukri Niam - AI Researcher and Web3 Builder</title>
+<title id="title">Istofi Yusuf - Fullstack Developer &amp; AI Engineer</title>
 <desc id="description">An animated agent intelligence console with an ASCII portrait, research direction, featured builds, and profile links.</desc>
 <defs>
   <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.backgroundStart}"/><stop offset="1" stop-color="${colors.backgroundEnd}"/></linearGradient>
@@ -335,7 +335,7 @@ function createHeroSvg(mode, size, portrait) {
 <circle cx="${titlebar.x + 21}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="#EF4444"><animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/></circle>
 <circle cx="${titlebar.x + 39}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
 <circle cx="${titlebar.x + 57}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.green}"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
-<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">wildan@agentlab ~ % ./profile --live</text>
+<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">istofi@devlab ~ % ./profile --live</text>
 ${isDesktop ? `<circle cx="${liveX}" cy="${titlebar.y + titlebar.height / 2}" r="4" fill="${colors.red}"><animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/></circle><text x="${liveX + 10}" y="${titlebar.y + titlebar.height / 2 + 4}" class="live-label">SCANNING</text>` : ""}
 <rect x="${visual.x}" y="${visual.y}" width="${visual.width}" height="${visual.height}" rx="${visual.radius}" fill="${colors.panel}" fill-opacity="0.38" stroke="url(#border)" stroke-opacity="0.42"/>
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
@@ -345,7 +345,7 @@ ${ambientPortrait}
 <g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
 ${system.rows}
 <rect x="${layout.system.x + 2}" y="${cursorY}" width="9" height="${layout.system.fontSize + 2}" fill="${colors.cyan}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.03;0.06;0.32;0.5;0.68;0.84;1" dur="1.4s" begin="3.3s" repeatCount="indefinite"/></rect>
-<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">AI AGENTS / WEB3 TRUST / AUTONOMOUS SYSTEMS</text>
+<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">FULLSTACK / AI / DESIGN / DEVOPS</text>
 <rect x="0" y="-70" width="${layout.width}" height="70" fill="url(#scan)" opacity="0.72" style="mix-blend-mode:${colors.scanBlend}"><animateTransform attributeName="transform" type="translate" from="0 -70" to="0 ${layout.height + 70}" dur="4.5s" repeatCount="indefinite"/></rect>
 <rect x="3" y="3" width="${layout.width - 6}" height="${layout.height - 6}" rx="${layout.outerRadius - 2}" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
 </svg>`;

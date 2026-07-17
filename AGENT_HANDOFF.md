@@ -1,17 +1,17 @@
-# Agent Handoff: Wildan GitHub Profile README
+# Agent Handoff: Istofi Yusuf GitHub Profile README
 
 ## Current Goal
 
-The user wants a polished GitHub profile README for `wildanniam` that presents Wildan Syukri Niam as an **AI Researcher & Web3 Builder**. The profile should be fully English, professional, credible for future AI graduate-study plans, and strong enough to sell his builder work in AI agents, Web3 trust, on-chain intelligence, and agentic payments.
+The user wants a polished GitHub profile README for `istofiyusuf` that presents Istofi Yusuf as a **Fullstack Developer & AI Engineer**. The profile should be fully English, professional, and strong enough to showcase his builder work in web development, AI automation, design engineering, and DevOps.
 
 ## User Preferences
 
 - Language: full English.
-- Positioning: **AI Researcher & Web3 Builder**.
-- Visual direction: clean premium "Researcher Builder", not noisy cyber/hacker style.
-- Contact links for v1: GitHub only for now. Instagram was discussed, but no exact handle was provided, so it was omitted.
+- Positioning: **Fullstack Developer & AI Engineer**.
+- Visual direction: clean premium "Developer Builder", not noisy cyber/hacker style.
+- Contact links for v1: GitHub only for now.
 - README strategy: hybrid.
-  - Curated story, featured projects, focus areas, and research direction are manual.
+  - Curated story, featured projects, focus areas, and tech stack are manual.
   - Recent public GitHub activity is auto-updated inside a bounded generated block.
 
 ## Implemented Repository
@@ -19,276 +19,218 @@ The user wants a polished GitHub profile README for `wildanniam` that presents W
 Local path:
 
 ```text
-/Users/wildanniam/Development/project/github/wildanniam
-```
-
+/home/yusuf/Desktop/NextJS Project/istofiyusuf
 Remote repo:
 
-```text
-https://github.com/wildanniam/wildanniam
-```
-
-The repo was created and pushed as a public GitHub special profile repository.
-
-Initial commit:
-
-```text
-582d2a7 feat: create profile README
-```
+text
+https://github.com/istofiyusuf/istofiyusuf
+The repo was created as a public GitHub special profile repository.
 
 Default branch:
 
-```text
+text
 main
-```
-
-## Implemented Files
-
-```text
-wildanniam/
+Implemented Files
+text
+istofiyusuf/
 ├── README.md
 ├── AGENT_HANDOFF.md
 ├── assets/
 │   ├── header.png
-│   └── header.svg
+│   ├── header.svg
+│   ├── profile.webp
+│   └── hero/
+│       ├── agent-console-v5-dark.svg
+│       ├── agent-console-v5-light.svg
+│       ├── agent-console-v5-mobile-dark.svg
+│       └── agent-console-v5-mobile-light.svg
 ├── data/
 │   └── featured-projects.json
+├── docs/
+│   └── agent-hero.md
 ├── scripts/
+│   ├── generate-agent-hero.mjs
 │   └── update-readme.mjs
 └── .github/
     └── workflows/
         └── update-readme.yml
-```
-
-Important note: this `AGENT_HANDOFF.md` file was created after the initial push and may need to be committed/pushed if the user wants it stored on GitHub.
-
-## README Content Summary
-
+README Content Summary
 The current README includes:
 
-- Header image: `assets/header.png`
-- GitHub badge CTA
-- About Me
-- Current Focus table
-- Featured Work table
-- Research Direction
-- Tech Stack badges
-- Recent Activity generated block
+Header image with animated SVG (dark/light theme support)
+
+GitHub badge CTA
+
+About Me
+
+Current Focus table
+
+Featured Work table (6 projects)
+
+Tech Stack badges (6 categories: Frontend, Backend, AI, Design, Social, DevOps)
+
+Recent Activity generated block
 
 The current positioning copy is:
 
-```text
-I am Wildan Syukri Niam, a Telkom University student focused on the intersection of AI agents, Web3 trust, and on-chain intelligence.
-```
-
-The research direction emphasizes:
-
-- AI agents that observe state
-- tool use
-- risk reasoning
-- multi-agent coordination
-- bounded actions
-- transparent evidence
-- trustworthy autonomous systems
-
-## Featured Projects
-
+text
+I am Istofi Yusuf, a versatile developer and creator from Indonesia with expertise spanning fullstack development, AI automation, UI/UX design, and DevOps.
+Featured Projects
 The README highlights exactly these projects:
 
-1. Fradium
-   - Repo: `https://github.com/fradiumofficial/fradium`
-   - Live: `https://fradium.io`
-   - Positioning: AI-powered Web3 trust layer; multi-chain address analysis and AI threat detection.
+Active Projects
+ZENMOVIE
 
-2. AgentPay
-   - Repo: `https://github.com/wildanniam/AgentPay`
-   - Live: `https://agent-pay-jet.vercel.app`
-   - Positioning: agent-native API payments using x402 and Stellar testnet USDC.
+Repo: https://github.com/istofiyusuf/zenmovie
 
-3. Nova AI Wallet
-   - Repo: `https://github.com/OfficialNovaAI/nova-wallet`
-   - Live: `https://nova-wallet-puce.vercel.app`
-   - Positioning: AI wallet orchestration for chat-to-transact and on-chain analysis.
+Positioning: Full-stack anime & donghua streaming platform with multi-server support.
 
-4. Crucible
-   - Repo: `https://github.com/antech2-async/crucible`
-   - Live: `https://crucible-kappa-gules.vercel.app`
-   - Positioning: autonomous agent accountability and coordination.
+ShopVerse
 
-5. SpecHeal
-   - Repo: `https://github.com/antech2-async/SpecHeal`
-   - Live: `http://merge-kalau-berani.hackathon.sev-2.com`
-   - Positioning: AI-assisted Playwright UI test recovery.
+Repo: https://github.com/istofiyusuf/shopverse
 
-6. PayGate Stellar
-   - Repo: `https://github.com/wildanniam/paygate-stellar`
-   - Live: `https://paygate-stellar.vercel.app`
-   - Positioning: API micropayment middleware concept on Stellar.
+Positioning: Fullstack e-commerce marketplace with multi-payment gateway integration.
 
-## Automation Details
+Zenverse
 
+Repo: https://github.com/istofiyusuf/zenverse
+
+Positioning: Android APK distribution platform with categorized downloads.
+
+Upcoming Projects
+AI Flow Studio
+
+Repo: https://github.com/istofiyusuf/ai-flow-studio
+
+Positioning: No-code AI automation platform with visual flow builder.
+
+Pixel Forge
+
+Repo: https://github.com/istofiyusuf/pixel-forge
+
+Positioning: Browser-based design tool with AI capabilities.
+
+DevHub Dashboard
+
+Repo: https://github.com/istofiyusuf/devhub-dashboard
+
+Positioning: All-in-one developer dashboard for project management.
+
+Automation Details
 Script:
 
-```text
+text
 scripts/update-readme.mjs
-```
-
 Purpose:
 
-- Fetches recent public GitHub events for `wildanniam`.
-- Converts selected event types into readable markdown bullets.
-- Replaces only the bounded README block:
+Fetches recent public GitHub events for istofiyusuf.
 
-```md
+Converts selected event types into readable markdown bullets.
+
+Replaces only the bounded README block:
+
+md
 <!-- AUTO:ACTIVITY:START -->
 ...
 <!-- AUTO:ACTIVITY:END -->
-```
-
 Supported event types:
 
-- `PushEvent`
-- `CreateEvent`
-- `PullRequestEvent`
-- `IssuesEvent`
+PushEvent
 
-Commands already tested:
+CreateEvent
 
-```bash
+PullRequestEvent
+
+IssuesEvent
+
+Commands to test:
+
+bash
 node scripts/update-readme.mjs --dry-run
 node scripts/update-readme.mjs
-```
-
 Workflow:
 
-```text
+text
 .github/workflows/update-readme.yml
-```
-
 Workflow name:
 
-```text
+text
 Update profile README
-```
-
 Schedule:
 
-```text
+text
 17 1 * * *
-```
+Also supports manual workflow_dispatch.
 
-Also supports manual `workflow_dispatch`.
+Tech Stack Categories
+The README showcases 6 skill categories with 50+ badges:
 
-The workflow uses only first-party GitHub Actions plus a shell commit step; no third-party commit action is required.
+Category	Skills
+Frontend	React, Next.js, TypeScript, Three.js, Tailwind CSS, Vue.js, HTML5, CSS3, JavaScript
+Backend	Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, GraphQL, REST API
+AI & Automation	OpenAI, LangChain, Chatbot, Prompt Engineering, Zapier, Make
+Design	Figma, UI/UX, Web Design, Mobile Design, Prototyping, Design Systems, Video Editing, Motion Graphics, 3D Modeling, Audio Production
+Social & Marketing	Content Creation, Social Media Strategy, Instagram/TikTok, YouTube, SEO, Adobe Premiere, Copywriting, Brand Strategy
+DevOps & Tools	Docker, AWS, Vercel, CI/CD, Git, GitHub, Linux, Nginx, Kubernetes, Terraform, GitHub Actions, Monitoring
+Portrait Hero System
+The profile hero is an animated SVG console with:
 
-## Verification Already Done
+Desktop: 1180x610 layout
 
-These checks passed:
+Mobile: 720x1080 stacked layout
 
-```bash
-gh repo view wildanniam/wildanniam --json name,url,visibility,defaultBranchRef
-gh workflow list --repo wildanniam/wildanniam
-curl -s https://raw.githubusercontent.com/wildanniam/wildanniam/main/README.md
-curl -I -s https://raw.githubusercontent.com/wildanniam/wildanniam/main/assets/header.png
-```
+Dark & light theme variants
 
-Facts confirmed:
+Portrait image placed at assets/profile.webp
 
-- Repo exists: `wildanniam/wildanniam`
-- Visibility: public
-- Default branch: `main`
-- Repo is not empty
-- Repo is not a fork
-- Root `README.md` exists
-- Header PNG exists remotely and returns HTTP 200
-- Workflow is active
-- README renders correctly on the repository page at `https://github.com/wildanniam/wildanniam`
+System information panel with identity, research, builds, and links
 
-## Current User Issue
-
-The user asked why the profile README does not appear on the main profile Overview page:
-
-```text
-https://github.com/wildanniam
-```
-
-Screenshot showed the Overview page still displaying pinned repositories and contributions, but not the special profile README.
-
-Important findings:
-
-- The special profile repo appears technically valid:
-  - name: `wildanniam`
-  - owner: `wildanniam`
-  - full name: `wildanniam/wildanniam`
-  - public
-  - default branch `main`
-  - root `README.md`
-- The repository page itself renders README content correctly.
-- A curl of `https://github.com/wildanniam?tab=overview` did not show the README content at that moment.
-- This may be GitHub cache/indexing delay, profile-page refresh delay, or a GitHub UI toggle/condition not visible from API.
-
-Recommended next troubleshooting steps:
-
-1. Wait a few minutes and hard-refresh the profile page.
-2. Visit `https://github.com/wildanniam/wildanniam` while logged in and check whether GitHub shows a "Share to profile" or special profile README prompt.
-3. Confirm the profile repository remains public and named exactly `wildanniam`.
-4. Confirm `README.md` is in the repository root, not inside another folder.
-5. Try opening the profile in an incognito/private browser window.
-6. If still not appearing, make a tiny README commit to retrigger GitHub indexing.
-7. If needed, temporarily simplify README to plain text only to rule out rendering/content issues, then restore the designed version.
-
-## Useful Commands
-
+Useful Commands
 Check local status:
 
-```bash
-cd /Users/wildanniam/Development/project/github/wildanniam
+bash
+cd ~/Desktop/NextJS\ Project/istofiyusuf
 git status --short --branch
-```
-
 Run README activity update:
 
-```bash
+bash
 node scripts/update-readme.mjs --dry-run
 node scripts/update-readme.mjs
-```
+Generate hero assets (requires ffmpeg):
 
-Push handoff file if desired:
-
-```bash
-git add AGENT_HANDOFF.md
-git commit -m "docs: add agent handoff"
-git push
-```
-
+bash
+node scripts/generate-agent-hero.mjs --source /path/to/portrait.webp
 Check remote:
 
-```bash
-gh repo view wildanniam/wildanniam --json nameWithOwner,visibility,isFork,isEmpty,defaultBranchRef,url
-gh workflow list --repo wildanniam/wildanniam
-```
-
+bash
+gh repo view istofiyusuf/istofiyusuf --json nameWithOwner,visibility,isFork,isEmpty,defaultBranchRef,url
 Check raw README:
 
-```bash
-curl -s https://raw.githubusercontent.com/wildanniam/wildanniam/main/README.md | sed -n '1,120p'
-```
-
-## Style Guidance for Future Edits
-
+bash
+curl -s https://raw.githubusercontent.com/istofiyusuf/istofiyusuf/main/README.md | sed -n '1,120p'
+Style Guidance for Future Edits
 Keep the README:
 
-- English-only
-- concise and professional
-- research-forward
-- builder-credible
-- focused on AI agents and Web3 trust
-- not overloaded with badges, stats, or decorative animations
+English-only
+
+concise and professional
+
+builder-credible
+
+focused on fullstack development, AI automation, and design engineering
+
+not overloaded with stats or decorative animations
 
 Avoid turning it into:
 
-- a generic fullstack profile
-- a noisy badge wall
-- a raw auto-generated repo dashboard
-- a casual biography without technical positioning
+a generic "hire me" profile
 
+a noisy badge wall
+
+a raw auto-generated repo dashboard
+
+a casual biography without technical positioning
+
+text
+
+---
