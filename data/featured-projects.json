@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ZENMOVIE",
+    "repo": "istofiyusuf/zenmovie",
+    "url": "https://github.com/istofiyusuf/zenmovie",
+    "homepage": "",
+    "status": "active",
+    "year": "2025",
+    "focus": "Anime & Donghua Streaming Platform",
+    "summary": "Platform streaming anime dan donghua dengan subtitle Indonesia. Mendukung multiple server, fitur bookmark, dan riwayat tontonan.",
+    "description": "Platform streaming full-stack dibangun dengan Next.js dan Express. Fitur termasuk multi-server video source, autentikasi pengguna, daftar tontonan, riwayat tontonan, dan desain responsif untuk semua perangkat.",
+    "tags": ["Next.js", "TypeScript", "Express", "MongoDB"]
+  },
+  {
+    "name": "ShopVerse",
+    "repo": "istofiyusuf/shopverse",
+    "url": "https://github.com/istofiyusuf/shopverse",
+    "homepage": "",
+    "status": "active",
+    "year": "2025",
+    "focus": "Fullstack E-Commerce",
+    "summary": "Toko digital modern dengan dukungan semua metode pembayaran. Cepat, responsif, dan ramah pengguna seperti Shopee.",
+    "description": "Platform e-commerce lengkap dengan integrasi multi-payment gateway. Fitur termasuk katalog produk, sistem keranjang, pelacakan pesanan, dan dashboard admin. Dioptimalkan untuk performa dan konversi.",
+    "tags": ["Next.js", "PostgreSQL", "Prisma", "Stripe"]
+  },
+  {
+    "name": "Zenverse",
+    "repo": "istofiyusuf/zenverse",
+    "url": "https://github.com/istofiyusuf/zenverse",
+    "homepage": "",
+    "status": "active",
+    "year": "2025",
+    "focus": "Android App Distribution",
+    "summary": "Platform download aplikasi Android gratis. Koleksi lengkap APK mod, game, dan tools dengan update berkala.",
+    "description": "Platform distribusi aplikasi dengan unduhan berkategori, fungsi pencarian, pelacakan versi, dan ulasan pengguna. Dibangun untuk kecepatan dan navigasi mudah.",
+    "tags": ["React", "TypeScript", "Node.js", "Supabase"]
+  },
+  {
+    "name": "AI Flow Studio",
+    "repo": "istofiyusuf/ai-flow-studio",
+    "url": "https://github.com/istofiyusuf/ai-flow-studio",
+    "homepage": "",
+    "status": "coming-soon",
+    "year": "2025",
+    "focus": "AI Automation Platform",
+    "summary": "Platform otomatisasi alur kerja bertenaga AI. Buat AI agent kustom, otomatisasi tugas, dan integrasi dengan tools populer.",
+    "description": "Platform otomatisasi AI tanpa kode dengan pembangun alur visual. Fitur termasuk AI agent kustom, penjadwalan tugas, otomatisasi multi-langkah, dan integrasi dengan Slack, Discord, Gmail, dan lainnya.",
+    "tags": ["Python", "FastAPI", "React", "OpenAI", "LangChain"]
+  },
+  {
+    "name": "Pixel Forge",
+    "repo": "istofiyusuf/pixel-forge",
+    "url": "https://github.com/istofiyusuf/pixel-forge",
+    "homepage": "",
+    "status": "coming-soon",
+    "year": "2025",
+    "focus": "Browser-based Design Tool",
+    "summary": "Alat desain berbasis browser untuk membuat grafis menakjubkan. Fitur termasuk penghapusan latar belakang AI, template, dan kolaborasi.",
+    "description": "Platform desain online yang menggabungkan alat editing tradisional dengan kemampuan AI. Fitur termasuk penghapusan latar belakang pintar, pustaka template, kolaborasi tim, dan ekspor ke berbagai format.",
+    "tags": ["Three.js", "WebGL", "React", "Fabric.js"]
+  },
+  {
+    "name": "DevHub Dashboard",
+    "repo": "istofiyusuf/devhub-dashboard",
+    "url": "https://github.com/istofiyusuf/devhub-dashboard",
+    "homepage": "",
+    "status": "coming-soon",
+    "year": "2025",
+    "focus": "Developer Tools",
+    "summary": "Dashboard developer all-in-one untuk manajemen proyek, pengujian API, cuplikan kode, dan pemantauan deployment.",
+    "description": "Dashboard developer all-in-one untuk manajemen proyek, pengujian API, cuplikan kode, dan pemantauan deployment. Dibangun dengan performa tinggi dan UI yang intuitif.",
+    "tags": ["React", "GraphQL", "PostgreSQL", "Docker"]
+  }
+]

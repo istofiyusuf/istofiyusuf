@@ -1,5 +1,11 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Istofi+Yusuf;Developer+%7C+Learner+%7C+Builder" alt="Typing SVG" />
+  <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
+    <img src="./assets/header.png" alt="Istofi Yusuf - Fullstack Developer & AI Engineer" width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -10,26 +16,37 @@
 
 ## About Me
 
-I am **Istofi Yusuf**, a developer from Indonesia who is passionate about building software that solves real problems.
+I am **Istofi Yusuf**, a versatile developer and creator from Indonesia with expertise spanning **fullstack development, AI automation, UI/UX design, and DevOps**.
 
-I'm currently focused on improving my skills in **web development** and exploring how technology can make a meaningful impact. I enjoy learning new things and collaborating on open source projects.
+I build end-to-end digital products — from crafting beautiful interfaces with React & Tailwind, engineering robust backends with Node.js & Python, to deploying scalable infrastructure with Docker & AWS. I also bring a creative edge with motion graphics, video editing, and social media strategy.
+
+My mission is to bridge the gap between **code, design, and business** to create impactful digital experiences.
 
 ## Current Focus
 
 | Area | What I am exploring |
 | --- | --- |
-| **Web Development** | Building responsive and functional web applications |
-| **Backend** | Learning server-side development and databases |
-| **Open Source** | Contributing to projects and learning from the community |
+| **Fullstack Development** | React/Next.js + Node.js/Python end-to-end applications |
+| **AI Integration** | OpenAI, LangChain, chatbot development, and prompt engineering |
+| **Design Engineering** | UI/UX design systems, prototyping, and 3D web experiences |
+| **DevOps** | Containerization, CI/CD pipelines, and cloud deployment |
+| **Content Creation** | Video editing, motion graphics, and social media strategy |
 
 ## Featured Work
 
 | Project | Focus | Why it matters |
 | --- | --- | --- |
-| [**ShopVerse**](https://github.com/istofiyusuf/shopverse) | Fullstack e-commerce platform | A Tokopedia-inspired marketplace with product listings, cart, checkout, and seller dashboard — showcasing end-to-end web development skills. |
-| [**Pentol App**](https://github.com/istofiyusuf/pentolapp) | Android system utility | A root-enabled batch automation tool for clearing app cache and data, built with Flutter + Kotlin native bridge for deep system integration. |
-| [**ZENMOVIE**](https://github.com/istofiyusuf/zenmovie) | Modern streaming platform | A fast and sleek anime & donghua streaming website with responsive UI, smooth playback, and a modern browsing experience. |
+| [**ZENMOVIE**](https://github.com/istofiyusuf/zenmovie) | Anime & Donghua Streaming Platform | Full-stack streaming platform with multi-server video sources, user authentication, watchlist, watch history, and responsive design for all devices. |
+| [**ShopVerse**](https://github.com/istofiyusuf/shopverse) | Fullstack E-Commerce | A modern digital marketplace with multi-payment gateway integration, product catalog, cart system, order tracking, and admin dashboard — optimized for performance and conversion. |
+| [**Zenverse**](https://github.com/istofiyusuf/zenverse) | Android App Distribution | A free APK distribution platform with categorized downloads, search functionality, version tracking, and user reviews — built for speed and easy navigation. |
 
+## Upcoming Projects
+
+| Project | Focus | Why it matters |
+| --- | --- | --- |
+| **AI Flow Studio** | AI Automation Platform | A no-code AI automation platform with visual flow builder, custom AI agents, task scheduling, multi-step automation, and integrations with Slack, Discord, Gmail, and more. |
+| **Pixel Forge** | Browser-based Design Tool | An online design platform combining traditional editing tools with AI capabilities — smart background removal, template library, team collaboration, and multi-format export. |
+| **DevHub Dashboard** | Developer Tools | An all-in-one developer dashboard for project management, API testing, code snippets, and deployment monitoring. |
 
 ## Tech Stack
 
@@ -66,7 +83,6 @@ I'm currently focused on improving my skills in **web development** and explorin
   <img alt="Prompt Engineering" src="https://img.shields.io/badge/Prompt_Engineering-1E293B?style=flat-square&logo=openai&logoColor=white">
   <img alt="Zapier" src="https://img.shields.io/badge/Zapier-1E293B?style=flat-square&logo=zapier&logoColor=FF4A00">
   <img alt="Make" src="https://img.shields.io/badge/Make-1E293B?style=flat-square&logo=make&logoColor=6D00CC">
-  <img alt="AI Automation" src="https://img.shields.io/badge/AI_Automation-1E293B?style=flat-square&logo=robotframework&logoColor=white">
 </p>
 
 ### Design
@@ -111,8 +127,14 @@ I'm currently focused on improving my skills in **web development** and explorin
   <img alt="Monitoring" src="https://img.shields.io/badge/Monitoring_%7C_Logging-1E293B?style=flat-square&logo=grafana&logoColor=F46800">
 </p>
 
+## Recent Activity
+
+<!-- AUTO:ACTIVITY:START -->
+_No recent public activity was found._
+<!-- AUTO:ACTIVITY:END -->
+
 ---
 
 <p align="center">
-  Learning, building, and growing — one commit at a time.
+  Building at the intersection of code, design, and AI — one project at a time.
 </p>

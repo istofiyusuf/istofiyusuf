@@ -1,0 +1,90 @@
+# Let's fix the SVG structure to ensure text elements render beautifully and correctly using system monospaced stacks
+svg_content_fixed = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="100%">
+    <defs>
+        <!-- Background Dark Gradient -->
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0d1117" />
+            <stop offset="100%" stop-color="#161b22" />
+        </linearGradient>
+
+        <!-- VS Code Terminal Border Glow -->
+        <linearGradient id="panelGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.6"/>
+            <stop offset="50%" stop-color="#2f81f7" stop-opacity="0.4"/>
+            <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.6"/>
+        </linearGradient>
+        
+        <!-- Glow effects for texts -->
+        <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+    </defs>
+
+    <style>
+        .mono {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        }
+        .cursor {
+            fill: #58a6ff;
+            animation: blink 0.9s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+
+    <!-- Main Background -->
+    <rect width="1200" height="500" fill="url(#bgGrad)"/>
+    
+    <!-- Abstract tech background details -->
+    <path d="M 0,150 L 150,150 L 220,220 L 500,220" fill="none" stroke="#21262d" stroke-width="1.5"/>
+    <path d="M 1200,350 L 1050,350 L 980,280 L 800,280" fill="none" stroke="#21262d" stroke-width="1.5"/>
+
+    <!-- Terminal Window Structure -->
+    <!-- Window Outline/Glow -->
+    <rect x="80" y="60" width="1040" height="380" rx="10" fill="#0d1117" stroke="url(#panelGlow)" stroke-width="2"/>
+    
+    <!-- Title Bar -->
+    <path d="M 80,70 Q 80,60 90,60 L 1110,60 Q 1120,60 1120,70 L 1120,105 L 80,105 Z" fill="#161b22"/>
+    
+    <!-- Window Control Buttons -->
+    <circle cx="115" cy="82" r="6" fill="#f85149"/>
+    <circle cx="135" cy="82" r="6" fill="#f0883e"/>
+    <circle cx="155" cy="82" r="6" fill="#3fb950"/>
+    
+    <!-- Terminal Tab Title -->
+    <text x="600" y="87" fill="#8b949e" font-size="13" text-anchor="middle" class="mono">bash • istofi-yusuf — portfolio</text>
+
+    <!-- Terminal Inner Body -->
+    <rect x="82" y="105" width="1036" height="333" fill="#070a0f" />
+
+    <!-- Code & Terminal Output Text Elements -->
+    <g class="mono">
+        <!-- Command Input -->
+        <text x="120" y="155" font-size="18" fill="#8b949e" font-weight="bold">istofi@macbook:~$ <tspan fill="#58a6ff">npx</tspan> <tspan fill="#79c0ff">create-creative-experience</tspan></text>
+        
+        <!-- Divider or system response -->
+        <text x="120" y="195" font-size="14" fill="#30363d">--------------------------------------------------</text>
+        
+        <!-- Big Name Header -->
+        <text x="120" y="255" font-size="56" fill="#58a6ff" font-weight="800" filter="url(#cyanGlow)">Istofi Yusuf</text>
+        
+        <!-- Subtitle/Roles -->
+        <text x="120" y="305" font-size="20" font-weight="bold" fill="#79c0ff" letter-spacing="1">
+            FULLSTACK DEVELOPER <tspan fill="#ff7b72">&amp;</tspan> <tspan fill="#d2a8ff">CREATIVE ENGINEER</tspan>
+        </text>
+        
+        <!-- Description lines -->
+        <text x="120" y="355" font-size="16" fill="#c9d1d9" letter-spacing="0.5">Building digital experiences with clean code and creative vision.</text>
+        <text x="120" y="385" font-size="16" fill="#c9d1d9" letter-spacing="0.5">Specializing in immersive web applications, AI automation, and digital content.</text>
+        
+        <!-- Running status + Blinking Cursor -->
+        <text x="120" y="420" font-size="15" fill="#3fb950">Status: Ready to build_</text>
+    </g>
+</svg>"""
+
+with open("istofi_yusuf_header_fixed.svg", "w", encoding="utf-8") as f:
+    f.write(svg_content_fixed)
+print("Fixed SVG Generated.")
