@@ -26,10 +26,9 @@ I'm currently focused on improving my skills in **web development** and explorin
 
 | Project | Focus | Why it matters |
 | --- | --- | --- |
-| [**Project 1**](https://github.com/istofiyusuf/portofolio) | Deskripsi singkat project | Jelaskan kenapa project ini penting |
-| [**Project 2**](https://github.com/istofiyusuf/pentolapp) | Deskripsi singkat project | Jelaskan kenapa project ini penting |
-
-> 💡 **Tips**: Ganti dengan project terbaik kamu. Kalau belum ada, semangat buat project pertama! 🚀
+| [**ShopVerse**](https://github.com/istofiyusuf/shopverse) | Fullstack e-commerce platform | A Tokopedia-inspired marketplace with product listings, cart, checkout, and seller dashboard — showcasing end-to-end web development skills. |
+| [**Pentol App**](https://github.com/istofiyusuf/pentolapp) | Android system utility | A root-enabled batch automation tool for clearing app cache and data, built with Flutter + Kotlin native bridge for deep system integration. |
+| [**ZENMOVIE**](https://github.com/istofiyusuf/zenmovie) | Modern streaming platform | A fast and sleek anime & donghua streaming website with responsive UI, smooth playback, and a modern browsing experience. |
 
 
 ## Tech Stack
