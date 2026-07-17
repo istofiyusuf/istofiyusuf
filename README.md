@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="https://github.com/istofiyusuf"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-istofiyusuf-0B1220?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="mailto:emailkamu@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=EA4335"></a>
-  <a href="https://linkedin.com/in/usernamekamu"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=0A66C2"></a>
+  <a href="mailto:yusufistofi@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=EA4335"></a>
+  <a href="https://linkedin.com/in/istofiyusuf"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=0A66C2"></a>
 </p>
 
 ## About Me
